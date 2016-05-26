@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.shujaat.packing.Wrapper"/>
+<fullyQualifiedTypeName name="com.shujaat.packing.Packing"/>
+<fullyQualifiedTypeName name="com.shujaat.packing.Bottle"/>
+<fullyQualifiedTypeName name="com.shujaat.fooditem.Item"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.shujaat.fooditem.VegBurger"/>
+<fullyQualifiedTypeName name="com.shujaat.fooditem.Coke"/>
+<fullyQualifiedTypeName name="com.shujaat.fooditem.ChickenBurger"/>
+<fullyQualifiedTypeName name="com.shujaat.fooditem.Pepsi"/>
+<fullyQualifiedTypeName name="com.shujaat.mealbuilder.MealBuilder"/>
+<fullyQualifiedTypeName name="com.shujaat.mealbuilder.Meal"/>
+</qualifiedTypeNameHistroy>
