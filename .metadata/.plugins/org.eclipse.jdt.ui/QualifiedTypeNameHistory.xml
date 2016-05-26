@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="color.Color"/>
+<fullyQualifiedTypeName name="com.shujaat.shape.Circle"/>
+<fullyQualifiedTypeName name="com.shujaat.shape.Rectangle"/>
+<fullyQualifiedTypeName name="com.shujaat.shape.Square"/>
+<fullyQualifiedTypeName name="java.awt.Shape"/>
+<fullyQualifiedTypeName name="com.shujaat.factories.AbstractFactory"/>
+</qualifiedTypeNameHistroy>

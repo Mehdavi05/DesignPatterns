@@ -1,0 +1,12 @@
+package com.shujaat.factories;
+
+import com.shujaat.color.Color;
+import com.shujaat.shape.Shape;
+
+import color.*;
+import shape.*;
+
+public abstract class AbstractFactory {
+	abstract Color getColor(String color);
+	abstract Shape getShape(String shape) ;
+}

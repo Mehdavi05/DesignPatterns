@@ -1,0 +1,5 @@
+package com.shujaat.factories;
+
+public class ShapeFactory {
+
+}

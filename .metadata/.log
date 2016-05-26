@@ -1,0 +1,177 @@
+!SESSION 2016-05-26 14:56:26.171 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ShujaatHussain/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ShujaatHussain/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-26 14:56:34.224
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-05-26 14:57:09.412 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/ShujaatHussain/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/ShujaatHussain/DesignPatterns -product org.eclipse.epp.package.jee.product -keyring /Users/ShujaatHussain/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-26 14:57:17.974
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2016-05-26 15:08:50.317
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 4] Problems encountered while moving resources.
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:176)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:429)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:91)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:265)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:441)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:212)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:89)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:113)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:116)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1542)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1495)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:480)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:415)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:164)
+	... 27 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1542)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1495)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:480)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:415)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:164)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:429)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:91)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:265)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:441)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:212)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:89)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:113)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:116)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Resource is out of sync with the file system: '/AbstractFactoryDesignPattern/src/color'.
+!SUBENTRY 1 org.eclipse.jdt.core 4 966 2016-05-26 15:08:50.319
+!MESSAGE Problems encountered while moving resources.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1542)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1495)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:480)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:415)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:164)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:429)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:91)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:265)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:441)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:212)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:89)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:113)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:116)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Resource is out of sync with the file system: '/AbstractFactoryDesignPattern/src/color'.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2016-05-26 15:08:50.319
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 3 org.eclipse.core.resources 1 4 2016-05-26 15:08:50.320
+!MESSAGE Resource is out of sync with the file system: '/AbstractFactoryDesignPattern/src/color'.
+
+!ENTRY org.eclipse.jdt.core 4 966 2016-05-26 15:08:50.409
+!MESSAGE Problems encountered while moving resources.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1542)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1495)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:480)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:415)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:164)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:429)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:91)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:265)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:441)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:212)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:89)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:113)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:116)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Resource is out of sync with the file system: '/AbstractFactoryDesignPattern/src/color'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2016-05-26 15:08:50.409
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2016-05-26 15:08:50.409
+!MESSAGE Resource is out of sync with the file system: '/AbstractFactoryDesignPattern/src/color'.
