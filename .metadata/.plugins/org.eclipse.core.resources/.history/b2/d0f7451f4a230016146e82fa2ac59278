@@ -1,0 +1,5 @@
+package com.shujaat.mediaplayer;
+
+public interface MediaPlayer {
+
+}
