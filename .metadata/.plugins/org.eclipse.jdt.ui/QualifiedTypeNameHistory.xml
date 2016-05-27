@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.shujaat.shape.Shape"/>
+<fullyQualifiedTypeName name="com.shujaat.shape.Circle"/>
+<fullyQualifiedTypeName name="com.shujaat.shapedecorator.RedShapeDecorator"/>
+<fullyQualifiedTypeName name="com.shujaat.shape.Rectangle"/>
+</qualifiedTypeNameHistroy>
