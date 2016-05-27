@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.Criteria"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.CriteriaMale"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.CriteriaFemale"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.CriteriaSingle"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.AndCriteria"/>
+<fullyQualifiedTypeName name="com.shujaat.criteria.OrCriteria"/>
+</qualifiedTypeNameHistroy>
