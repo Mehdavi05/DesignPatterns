@@ -1,0 +1,5 @@
+package com.shujaat.iterator;
+
+public interface Iterator {
+
+}
