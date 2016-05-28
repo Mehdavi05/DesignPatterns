@@ -1,0 +1,7 @@
+package com.shujaat.order;
+
+public abstract class Order 
+{
+	void execute();
+
+}
