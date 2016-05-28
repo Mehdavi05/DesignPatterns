@@ -1,0 +1,5 @@
+package com.shujaat.expression;
+
+public interface Expression {
+
+}
